@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            function printValue(){
+                var name = document.hello.name.value;
+                alert("Welcome " + name);
+            }
+        </script>
+        <form name= "hello">
+            Enter Name: <input type="text" name= "name"/> <br/><br/>
+            <input type="button" value= "Click to printName"  onclick="printValue()"/>
+        </form>
+    </body>
+</html>

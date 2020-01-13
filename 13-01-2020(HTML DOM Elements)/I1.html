@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script> 
+            function getcube(){
+                var number = document.getElementById("number").value;
+                alert(number*number*number);
+            }
+            function getSquare(){
+                var number = document.getElementById("number").value;
+                alert(number*number);
+            }
+            function getSum(){
+                var number = document.getElementById("number").value;
+                var num = parseInt(number);
+                alert(num + num);
+            }
+        </script> 
+        <form>
+           Enter Number : <input type="text" id="number" number="number"/> <br/><br/>
+            <input type="button" value= "Click to getcube" onclick="getcube()"/>
+            <input type="button" value= "click to getSquare" onclick="getSquare()"/>
+            <input type="button" value= "click to getSum" onclick="getSum()"/>
+        </form>
+    </body>
+</html>
