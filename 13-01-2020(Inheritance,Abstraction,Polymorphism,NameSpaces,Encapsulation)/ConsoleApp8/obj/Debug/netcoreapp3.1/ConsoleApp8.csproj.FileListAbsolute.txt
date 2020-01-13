@@ -1,0 +1,10 @@
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.exe
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.deps.json
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.runtimeconfig.json
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.runtimeconfig.dev.json
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.dll
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\bin\Debug\netcoreapp3.1\ConsoleApp8.pdb
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.AssemblyInfoInputs.cache
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.AssemblyInfo.cs
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.dll
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp8\obj\Debug\netcoreapp3.1\ConsoleApp8.pdb
