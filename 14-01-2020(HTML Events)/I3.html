@@ -1,0 +1,23 @@
+<html>
+    <title>On Submit</title>
+    <form>
+        Name <input type="text" name="name"/> <br/>
+        Email <input type="email" email="email"/> <br/>
+        Password <input type="password" password="password"/> <br/>
+        Select Gender: Male <input type="radio" name="gender" value="male"/>
+                    Female<input type="radio" name="gender" value="female"/> <br/>
+        <input type="submit" value="Submit" id="btn" onclick="return ConfirmOnSubmit()"/>
+    </form>
+    <script>
+        function ConfirmOnSubmit(){
+            if(confirm("Are you sure you want to submit")){
+                alert("You selected Ok");
+                return true;
+            }
+            else{
+                alert("You selected Cancel");
+                return false;
+            }
+        }
+    </script>
+</html>

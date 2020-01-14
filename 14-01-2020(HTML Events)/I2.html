@@ -1,0 +1,22 @@
+<html>
+    <input type="button" value="Click Me" id="btn"
+    onmouseover="changeColorOnMouseOver()"
+    onmouseout="changeColorOnMouseOut()"
+    onclick="GetAlertOnClick()"/>
+    <script>
+        function changeColorOnMouseOver(){
+            var controle = document.getElementById("btn");
+            controle.style.background='red';
+            controle.style.color='yellow';
+        }
+        function changeColorOnMouseOut(){
+            var controle= document.getElementById("btn");
+            controle.style.background='black';
+            controle.style.color='white';
+        }
+        function GetAlertOnClick(){
+            var controle= document.getElementById("btn");
+            alert("Color Changed");
+        }
+    </script>
+</html>

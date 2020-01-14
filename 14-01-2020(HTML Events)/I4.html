@@ -1,0 +1,28 @@
+<html>
+    First Name <input type="text" id="textFirstName" onkeyup="validateRequiredField('textFirstName')" 
+                onblur="validateRequiredField('textFirstName')"/><br/>
+    Last Name <input type="text" id="textLastName" onkeyup="validateRequiredField('textLastName')"
+                onblur="validateRequiredField('textLastName')"/><br/>
+                <input type="submit" value="Submit" onclick="ConfirmOnSubmit()"/>
+    <script type= "text/javascript">
+        function validateRequiredField(controlId){
+            var control= document.getElementById(controlId);
+            control.style.color='white';
+            if(control.value == ""){
+                control.style.background= 'red';
+            }
+            else{
+                control.style.background= 'green';
+            }
+
+        }
+        function ConfirmOnSubmit(){
+            if(confirm("Are you sure to submit")){
+                alert("You selected Ok");
+            }
+            else{
+                alert("You Selected Cancel");
+            }
+        }
+    </script>
+</html>
