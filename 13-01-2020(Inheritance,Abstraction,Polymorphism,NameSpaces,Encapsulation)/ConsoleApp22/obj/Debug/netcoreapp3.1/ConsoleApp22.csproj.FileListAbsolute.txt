@@ -1,0 +1,10 @@
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\bin\Debug\netcoreapp3.1\ConsoleApp22.exe
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\bin\Debug\netcoreapp3.1\ConsoleApp22.deps.json
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\bin\Debug\netcoreapp3.1\ConsoleApp22.runtimeconfig.json
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\bin\Debug\netcoreapp3.1\ConsoleApp22.runtimeconfig.dev.json
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\bin\Debug\netcoreapp3.1\ConsoleApp22.dll
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\bin\Debug\netcoreapp3.1\ConsoleApp22.pdb
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\obj\Debug\netcoreapp3.1\ConsoleApp22.AssemblyInfoInputs.cache
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\obj\Debug\netcoreapp3.1\ConsoleApp22.AssemblyInfo.cs
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\obj\Debug\netcoreapp3.1\ConsoleApp22.dll
+G:\C#\13-01-2020\ConsoleApp3\ConsoleApp22\obj\Debug\netcoreapp3.1\ConsoleApp22.pdb

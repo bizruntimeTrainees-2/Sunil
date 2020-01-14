@@ -1,0 +1,10 @@
+G:\C#\object\ConsoleApp1\ConsoleApp20\bin\Debug\netcoreapp3.1\ConsoleApp20.exe
+G:\C#\object\ConsoleApp1\ConsoleApp20\bin\Debug\netcoreapp3.1\ConsoleApp20.deps.json
+G:\C#\object\ConsoleApp1\ConsoleApp20\bin\Debug\netcoreapp3.1\ConsoleApp20.runtimeconfig.json
+G:\C#\object\ConsoleApp1\ConsoleApp20\bin\Debug\netcoreapp3.1\ConsoleApp20.runtimeconfig.dev.json
+G:\C#\object\ConsoleApp1\ConsoleApp20\bin\Debug\netcoreapp3.1\ConsoleApp20.dll
+G:\C#\object\ConsoleApp1\ConsoleApp20\bin\Debug\netcoreapp3.1\ConsoleApp20.pdb
+G:\C#\object\ConsoleApp1\ConsoleApp20\obj\Debug\netcoreapp3.1\ConsoleApp20.AssemblyInfoInputs.cache
+G:\C#\object\ConsoleApp1\ConsoleApp20\obj\Debug\netcoreapp3.1\ConsoleApp20.AssemblyInfo.cs
+G:\C#\object\ConsoleApp1\ConsoleApp20\obj\Debug\netcoreapp3.1\ConsoleApp20.dll
+G:\C#\object\ConsoleApp1\ConsoleApp20\obj\Debug\netcoreapp3.1\ConsoleApp20.pdb
