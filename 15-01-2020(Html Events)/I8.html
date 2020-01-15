@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>OnLoad</title>
+</head>
+<body>
+    <img id="MyFrame" src="is.jpg"/>
+
+    <p id="demo">
+        <script>
+            document.getElementById("MyFrame").onload = MyFunction();
+            function MyFunction(){
+                document.getElementById("demo").innerHTML = "Image Loaded";
+            }
+        </script>
+    </p>
+</body>
+</html>

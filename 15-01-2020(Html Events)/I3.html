@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OnBlur</title>
+    <script>
+        function UpperCase(){
+          var x = document.getElementById("Fname");
+            x.value = x.value.toUpperCase();
+        }
+        function LowerCase(){
+          var x = document.getElementById("Lname");
+            x.value = x.value.toLowerCase();
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label>Enter Name in LowerCase</label><br/>
+        <input type="text" id="Fname" onblur="UpperCase()"/><br/>
+        <label>Enter Name in UpperCase</label><br/>
+        <input type="text" id="Lname" onblur="LowerCase()"/><br/>
+    </form>
+</body>
+</html>

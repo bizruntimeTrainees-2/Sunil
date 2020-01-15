@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>OnLoad</title>
+</head>
+<body>
+    <img id="MyImage" src="is.jpg" alt="TreeImage"/>
+    <p id="demo">
+        <script>
+            document.getElementById("MyImage").addEventListener("load", MyFunction);
+
+            function MyFunction(){
+                document.getElementById("demo").innerHTML= "imageLoaded";
+            }
+        </script>
+    </p>
+</body>
+</html>
