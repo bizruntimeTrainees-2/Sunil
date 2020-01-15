@@ -1,0 +1,5 @@
+G:\C#\15-01-2020(AccessModifiers)\Assembly1\AssemblyTwo\bin\Debug\AssemblyTwo.dll
+G:\C#\15-01-2020(AccessModifiers)\Assembly1\AssemblyTwo\bin\Debug\AssemblyTwo.pdb
+G:\C#\15-01-2020(AccessModifiers)\Assembly1\AssemblyTwo\obj\Debug\AssemblyTwo.csprojAssemblyReference.cache
+G:\C#\15-01-2020(AccessModifiers)\Assembly1\AssemblyTwo\obj\Debug\AssemblyTwo.dll
+G:\C#\15-01-2020(AccessModifiers)\Assembly1\AssemblyTwo\obj\Debug\AssemblyTwo.pdb

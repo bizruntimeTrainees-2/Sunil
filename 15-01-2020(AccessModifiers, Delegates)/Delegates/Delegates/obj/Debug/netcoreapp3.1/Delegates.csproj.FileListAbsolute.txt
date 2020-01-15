@@ -1,0 +1,11 @@
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.exe
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.deps.json
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.runtimeconfig.json
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.runtimeconfig.dev.json
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.dll
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\bin\Debug\netcoreapp3.1\Delegates.pdb
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.csprojAssemblyReference.cache
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.AssemblyInfoInputs.cache
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.AssemblyInfo.cs
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.dll
+G:\C#\15-01-2020(AccessModifiers)\Delegates\Delegates\obj\Debug\netcoreapp3.1\Delegates.pdb
