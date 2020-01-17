@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SyncExe</title>
+    <div id="demo">
+        <h2>The XMLHttprequest Object</h2>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+</head>
+<body>
+    <script>
+       function loadDoc(){
+        var xhttp= new XMLHttpRequest();
+        xhttp.open("GET", "ajax_info.txt", false)
+        xhttp.send();
+        document.getElementById("demo").innerHTML= xhttp.responseText;
+       }
+    </script>
+</body>
+</html>

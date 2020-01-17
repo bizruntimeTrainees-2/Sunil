@@ -1,0 +1,10 @@
+Ajax is not a programming language
+Ajax is acombination of HTML, JavaScript, CSS,
+XMLHTTPRequest object are used to exchange the data with the server.
+Response comming from the server is in the form of callbacks
+callback is a special function which is used in ajax, So that it can resond to the client when it is ready to send the response to the client
+there are four steps we need to follow in Ajax.
+	i. Creating XMLHTTPRequest object
+	ii. Making request to the server by using open() or send() methods
+	iii. Handle response by using Ready State property
+	iv. Send the request by using xhttp.send();
