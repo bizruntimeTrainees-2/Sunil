@@ -1,0 +1,11 @@
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\bin\Debug\netcoreapp3.1\ThreadLocking.exe
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\bin\Debug\netcoreapp3.1\ThreadLocking.deps.json
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\bin\Debug\netcoreapp3.1\ThreadLocking.runtimeconfig.json
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\bin\Debug\netcoreapp3.1\ThreadLocking.runtimeconfig.dev.json
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\bin\Debug\netcoreapp3.1\ThreadLocking.dll
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\bin\Debug\netcoreapp3.1\ThreadLocking.pdb
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\obj\Debug\netcoreapp3.1\ThreadLocking.csprojAssemblyReference.cache
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\obj\Debug\netcoreapp3.1\ThreadLocking.AssemblyInfoInputs.cache
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\obj\Debug\netcoreapp3.1\ThreadLocking.AssemblyInfo.cs
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\obj\Debug\netcoreapp3.1\ThreadLocking.dll
+G:\C#\23-01-2020\ThreadLocking\ThreadLocking\obj\Debug\netcoreapp3.1\ThreadLocking.pdb
