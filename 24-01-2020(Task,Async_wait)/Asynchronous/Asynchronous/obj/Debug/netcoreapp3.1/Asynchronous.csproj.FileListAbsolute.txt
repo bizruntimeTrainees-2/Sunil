@@ -1,0 +1,11 @@
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.exe
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.deps.json
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.runtimeconfig.json
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.runtimeconfig.dev.json
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.dll
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\bin\Debug\netcoreapp3.1\Asynchronous.pdb
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.csprojAssemblyReference.cache
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.AssemblyInfoInputs.cache
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.AssemblyInfo.cs
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.dll
+G:\C#\24-01-2020(Task)\Asynchronous\Asynchronous\obj\Debug\netcoreapp3.1\Asynchronous.pdb
