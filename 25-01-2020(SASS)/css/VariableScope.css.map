@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,EAAE;EAEE,KAAK,EADK,KAAK;;AAGnB,CAAC;EACG,KAAK,EAPC,GAAG",
+"sources": ["../scss/VariableScope.scss"],
+"names": [],
+"file": "VariableScope.css"
+}

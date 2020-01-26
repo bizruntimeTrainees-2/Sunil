@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,EAAE;EAEE,KAAK,EADK,KAAK;;AAGnB,CAAC;EACG,KAAK,EAJK,KAAK",
+"sources": ["../scss/GlobalVariable.scss"],
+"names": [],
+"file": "GlobalVariable.css"
+}

@@ -1,0 +1,12 @@
+html, body, ul, ol {
+  margin: 0px;
+  padding: 0px; }
+
+li {
+  display: inline-block;
+  padding: 12px 12px; }
+
+ul {
+  text-align: center; }
+
+/*# sourceMappingURL=reset.css.map */
