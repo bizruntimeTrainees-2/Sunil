@@ -1,0 +1,11 @@
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\bin\Debug\netcoreapp3.1\TextWriterReader.exe
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\bin\Debug\netcoreapp3.1\TextWriterReader.deps.json
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\bin\Debug\netcoreapp3.1\TextWriterReader.runtimeconfig.json
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\bin\Debug\netcoreapp3.1\TextWriterReader.runtimeconfig.dev.json
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\bin\Debug\netcoreapp3.1\TextWriterReader.dll
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\bin\Debug\netcoreapp3.1\TextWriterReader.pdb
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\obj\Debug\netcoreapp3.1\TextWriterReader.csprojAssemblyReference.cache
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\obj\Debug\netcoreapp3.1\TextWriterReader.AssemblyInfoInputs.cache
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\obj\Debug\netcoreapp3.1\TextWriterReader.AssemblyInfo.cs
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\obj\Debug\netcoreapp3.1\TextWriterReader.dll
+G:\C#\27-01-2020\ConsoleApp1\TextWriterReader\obj\Debug\netcoreapp3.1\TextWriterReader.pdb

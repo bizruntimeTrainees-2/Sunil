@@ -1,0 +1,17 @@
+$GetCurrent
+$Recycle.Bin
+Boot
+Documents and Settings
+Intel
+OneDriveTemp
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+Ruby26-x64
+System Volume Information
+TEMP
+Users
+Windows
+Windows10Upgrade

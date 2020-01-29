@@ -1,0 +1,11 @@
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.exe
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.deps.json
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.json
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.runtimeconfig.dev.json
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.dll
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp3.1\ConsoleApp3.pdb
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.csprojAssemblyReference.cache
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfoInputs.cache
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.AssemblyInfo.cs
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.dll
+G:\C#\28-01-2020\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp3.1\ConsoleApp3.pdb
