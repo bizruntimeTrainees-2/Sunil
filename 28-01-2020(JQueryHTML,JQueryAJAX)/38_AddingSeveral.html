@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            function afterText(){
+                var text1= "<b> I</b>";
+                var text2= $("<b></b>").text(" Love ");
+                var text3 = document.createElement("b");
+                text3.innerHTML= ("My Mother INDIA");
+                $("img").after(text1, text2, text3);
+            }
+        </script>
+    </head>
+    <body>
+        <img src="tree.jpg" alt="Tree Image" height="100px" width="100px"><br><br>
+            <button onclick="afterText()" >Insert after</button>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("img").before("before image");
+                });
+                $("#btn2").click(function(){
+                    $("img").after("After image");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <img src="tree.jpg" alt="Tree Image" height="100px" width="100px"><br><br>
+        <button id="btn1">Insert before</button>
+        <button id="btn2">Insert after</button>
+    </body>
+</html>

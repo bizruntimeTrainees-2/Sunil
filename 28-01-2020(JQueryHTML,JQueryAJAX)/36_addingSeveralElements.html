@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            function appendText(){
+                var text1 = "<p>Text.</p>";
+                var text2 = $("<p></p>").text("Text.");
+                var text3 = document.createElement("p");
+                text3 = "Text.";
+                $("body").append(text1, text2, text3);
+            }
+        </script>
+    </head>
+    <body>
+        <p>This is a paragraph.</p>
+        <button onclick="appendText()">Append text</button>
+    </body>
+</html>

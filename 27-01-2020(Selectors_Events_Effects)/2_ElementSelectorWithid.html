@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Element Selector id</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#demo").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <p>THis is paragraph</p>
+    <p id="demo">This is another paragraph</p>
+
+    <button>Click to hide paragraph</button>
+</body>
+</html>

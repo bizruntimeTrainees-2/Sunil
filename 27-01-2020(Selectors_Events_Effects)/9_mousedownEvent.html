@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>mousedown Event</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("div").mousedown(function(){
+                alert("You are doing mouse down over danger button dont do that");
+            })
+        })
+    </script>
+</head>
+<body>
+    <div>
+        Danger Button: <input style="padding: 10px;" type="button" value="Don't Press Me!! It will crash your System">
+    </div>
+</body>
+</html>

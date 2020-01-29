@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mouse enter Event</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#p1").mouseenter(function(){
+                alert("You entered into box which is not editiable");
+            })
+        })
+    </script>
+</head>
+<body>
+    <p id="p1" style="border: 1px solid black;margin-right: 1000px;">Enter into this box</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Slide Toggle</title>
+    <style>
+        #flip, #panel{
+            padding: 5px;
+            text-align: center;
+            background-color: cadetblue;
+            border: 1px solid violet;
+        }
+        #panel{
+            padding: 50px;  
+            display: none;          
+        }
+    </style>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                $("#flip").click(function(){
+                    $("#panel").slideToggle();
+                });
+            });
+    </script>
+</head>
+<body>
+    <div id="flip">Click to slide Toggle panel</div>
+    <div id="panel">Hello World!</div>
+</body>
+</html>

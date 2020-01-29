@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                alert("Value: " + $("#test").val());
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>Name: <input type="text" id="test" value="Mouse"></p>
+    <button>Show Value</button>
+</body>
+</html>
