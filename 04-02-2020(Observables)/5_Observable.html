@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.1.0/rxjs.umd.js"></script>
+
+    <script>
+	const { map, filter,of } = rxjs.operators;
+
+        const tik = new rxjs.Observable(subscriber => {
+            console.log("Hello!");
+            subscriber.next(10);
+            subscriber.next(20);
+            subscriber.next(30);
+
+            setTimeout(() =>{
+                subscriber.next(300);// happens asynchronously
+            }, 1000);
+        });
+        console.log("Before");
+        
+        tik.subscribe(x => {
+            console.log(x);            
+        });
+        console.log("After");
+		console.log(rxjs.Observable);
+        		 rxjs.of(12).subscribe(data=>console.log("Print : "+data))
+
+    </script>
+</body>
+</html>

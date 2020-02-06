@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.1.0/rxjs.umd.js"></script>
+    <script>
+        // Creating Observable
+        const observable = new rxjs.Observable(function subscribe(subscriber){
+            const id = setInterval(() => {
+                subscriber.next("hi");
+            }, 1000);
+        });
+
+        // subscribe to observer
+        observable.subscribe(x => {console.log(x);
+        });
+		
+		 rxjs.Observable.of(12).subscribe(data=>console.log("Print : "+data))
+    </script>
+
+</body>
+</html>
