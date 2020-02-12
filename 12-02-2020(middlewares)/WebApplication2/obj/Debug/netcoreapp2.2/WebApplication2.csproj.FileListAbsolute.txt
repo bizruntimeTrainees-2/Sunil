@@ -1,0 +1,16 @@
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\appsettings.json
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.deps.json
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.runtimeconfig.json
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.runtimeconfig.dev.json
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.dll
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\bin\Debug\netcoreapp2.2\WebApplication2.pdb
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.csprojAssemblyReference.cache
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.RazorAssemblyInfo.cache
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.RazorAssemblyInfo.cs
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.AssemblyInfoInputs.cache
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.AssemblyInfo.cs
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.RazorTargetAssemblyInfo.cache
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.dll
+D:\sunil\ASP.NET\12-02-2020\WebApplication2\obj\Debug\netcoreapp2.2\WebApplication2.pdb
