@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Title -->
+        <title>Curd Operations</title>
+        <!-- Refering CSS File -->
+        <link rel="stylesheet" href="myStyles.css">
+    </head>
+    <body>
+        <!-- Imports -->
+        <script src="jquery-3.4.1.min.js"></script>
+        <!-- Refering Script File -->
+        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- Home Buttons -->
+        <div class="container">        
+            <div id="btn" class="dropdown">
+                <button id="crud" type="button" class="btn btn-outline-primary">CRUD</button>
+                <button id="header" type="button" class="btn btn-outline-primary">HEADERS</button>
+                <button id="authenticate" type="button" class="btn btn-outline-primary">HEADERS</button>
+            </div>
+        </div>
+        <!-- CRUD Buttons -->
+        <div id="dpcnt" class="d-content">
+            <a href="#" id="getbtn"><button type="button" class="btn btn-primary btn-sm">GET</button></a>
+            <a href="#" id="postbtn"><button type="button" class="btn btn-primary btn-sm">POST</button></a>
+            <a href="#" id="pfdbtn"><button type="button" class="btn btn-primary btn-sm">POST FORM DATA</button></a> 
+            <a href="#" id="putbtn"><button type="button" class="btn btn-primary btn-sm">PUT</button></a> 
+            <a href="#" id="patchbtn"><button type="button" class="btn btn-primary btn-sm">PATCH</button></a> 
+            <a href="#" id="delbtn"><button type="button" class="btn btn-primary btn-sm">DELETE</button></a>                                
+        </div>            
+        <!-- Header Buttons -->
+        <div id="hdpcnt" class="d-content">
+            <a href="#" id="reqhbtn"><button type="button" class="btn btn-primary">Request Headers</button></a>
+            <a href="#" id="reshbtn"><button type="button" class="btn btn-primary">Response Headers</button></a>                                       
+        </div>       
+        <!-- Basic Authenticate Button  -->
+        <div id="audpcnt" class="d-content">
+            <a href="#" id="auth" ><button type="button" class="btn btn-primary btn-lg">Basic Auth</button></a>                
+        </div>
+        <!-- Get -->
+        <div id="text" class="input_fields" style="margin-top: 55px;">
+            <button  id="add" type="button" class="btn btn-info">Add More Fields</button>
+            <input type="text" id="txt" style="height: 30px; width: 300px;" value="Enter your data">
+            <a href="#" id="remove">Remove</a>
+            <button id="getsubbtn" onclick="callget()" type="button" class="btn btn-success">Submit</button>
+        </div>
+        <!-- Post Form Data -->
+        <div id="txtfld" class="input_fields" style="margin-top: 167px;">
+            <button  id="addmore" type="button" class="btn btn-info">Add More Fields</button>
+            <input type="text" id="fieldkey" style="height: 30px; width: 300px;" value="Enter Key">
+            <input type="text" id="fieldvalue" style="height: 30px; width: 300px;" value="Enter Value">
+            <a href="#" id="rmv">Remove</a>
+            <button id="formsub" onclick="postformData()" type="button" class="btn btn-success">Submit</button>
+        </div>
+        <!-- Post -->
+        <div id="textfield" style="margin-top: 110px;">
+            <input type="text" id="postdata" style="height: 30px;width: 300px;" value="Enter data to post">        
+            <button id="postsub" onclick="postData()" type="button" class="btn btn-success">Submit</button>
+        </div>
+        <!-- Put -->
+        <div id="putfield" style="margin-top: 222px;">
+            <input type="text" id="putdata" style="height: 30px;width: 300px;" value="Enter data to put">
+            <button id="putsub" onclick="putData()" type="button" class="btn btn-success">Submit</button>
+        </div>
+        <!-- Patch -->
+        <div id="patchfield" style="margin-top: 280px;">
+            <input type="text" id="patchdata" style="height: 30px;width: 300px;" value="Enter data to patch">
+            <button id="patchsub" onclick="patchData()" type="button" class="btn btn-success">Submit</button>
+        </div>
+        <!-- Delete -->
+        <div id="delfield" style="margin-top: 335px;">
+            <input type="text" id="deldata" style="height: 30px;width: 300px;" value="Enter data to delete">
+            <button id="delsub" onclick="delData()" type="button" class="btn btn-danger">Submit</button>
+        </div>
+        <!-- Request Header -->
+        <div id="reqhtxt">
+            <input style="margin-top: 15px;" type="text" id="reqhdata" style="height: 30px;width: 300px;" value="Request Header">
+            <button id="reqhsub" onclick="requestHeader()" type="button" class="btn btn-secondary">Submit</button>
+        </div>
+        <!-- Response Header -->
+        <div id="reshtxt">
+            <input style="margin-top: 80px;" type="text" id="reshdata" style="height: 30px;width: 300px;" value="Response Header">        
+            <button id="reshsub" onclick="responseHeader()" type="button" class="btn btn-secondary">Submit</button>
+        </div>
+        <!-- Authenticate -->
+        <div id="Auth_fields">
+            <input type="text" id="name" value="User Name" style="height: 30px;width: 400px;"> <br><br>
+            <input type="text" id="password" value="Password" style="height: 30px;width: 400px;"> <br><br>
+            <button id="athensub" onclick="athenticate()" type="button" class="btn btn-success">Submit</button>
+        </div>
+        <p id="display"></p>
+    </body>
+</html>

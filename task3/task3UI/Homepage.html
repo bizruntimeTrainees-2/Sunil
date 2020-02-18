@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="myScripts.js"></script>
+    <title>Welcome to dataSource</title>
+</head>
+<body>
+    <script src="jquery.tabledit.min.js"></script>
+    <h1 style="text-align: center;">Data Fetching From CSV File </h1>
+    <div class="container" style="text-align: right;">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select File
+          <span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a id="Comp1" href="#">Company1_data</a></li>
+                    <li><a id="Comp2" href="#">Company2_data</a></li>
+                    <li><a id="Comp3" href="#">Company3_data</a></li>
+                    <li><a id="Comp4" href="#">Company4_data</a></li>
+                    <li><a id="Comp5" href="#">Company5_data</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="table-responsive">
+         <div style="text-align: center;">
+            <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Data</button>
+         </div>
+         <br />
+            <div id="employee_table">
+         </div>
+         <a href="employeeTable.csv"><button type="button" name="load_data" id="load_data" class="btn btn-info">Download</button></a>
+        </div>
+        
+    </div>
+</html>
