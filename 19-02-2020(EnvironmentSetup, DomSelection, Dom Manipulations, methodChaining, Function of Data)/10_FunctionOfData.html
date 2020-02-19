@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="d3.min.js"></script>
+</head>
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <script>
+        var data = [100,200,300];
+        var para = d3.select('body')
+                        .selectAll('p')
+                        .data(data)
+                        .text(function(d){
+                            return d;
+                        });
+    </script>
+</body>
+</html>

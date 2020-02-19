@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="d3.min.js"></script>
+    <style>
+        .sAll {
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="sAll">We are using select all dom manipulating element</h1>
+    <p>This is a paragraph</p>
+    <h2 class="sAll">This is also have the same styles which is having h1</h2>
+    <script>
+        d3.selectAll('.sAll').style('color', 'blue');
+    </script>
+</body>
+</html>
