@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="d3.min.js"></script>
+</head>
+<body>
+    <script>
+        var svg = d3.select('body')
+                    .append('svg')
+                    .attr('height', 500)
+                    .attr('width', 500)
+        var b1 = svg.append('rect')
+                    .attr('fill', 'blue')
+                    .attr('x', 100)
+                    .attr('y', 20)
+                    .attr('height', 10)
+                    .attr('width', 20)
+        var b2 = svg.append('rect')
+                    .attr('fill', 'orange')
+                    .attr('x', 100)
+                    .attr('y', 50)
+                    .attr('height', 10)
+                    .attr('width', 20)
+        update();
+        
+        function update(){
+            b1.transition()
+                .ease(d3.easeLinear)
+                .duration(5000)
+                .attr('width', 500)
+            b2.transition()
+                .ease(d3.easeLinear)
+                .duration(5000)
+                .delay(2000)
+                .attr('width', 500)
+        }
+    </script>
+</body>
+</html>

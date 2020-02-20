@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="d3.min.js"></script>
+</head>
+<body>
+    <p>Error: This is danger Zone</p>
+    <p>Warning: If you enter you will face problems</p>
+
+    <script>
+        d3.selectAll("p").style('color', function(d, i){
+            var text = this.innerText;
+
+            if(text.indexOf("Error") >= 0){
+                return 'red';
+            }
+            if(text.indexOf("Warning") >= 0){
+                return "yellow";
+            }
+        });
+    </script>
+</body>
+</html>
