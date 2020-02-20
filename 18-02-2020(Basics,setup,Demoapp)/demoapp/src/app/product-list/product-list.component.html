@@ -1,0 +1,19 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+    <h3>
+        <a [title] = "product.name +  ' Rs: ' + product.price">{{product.name}}</a>
+    </h3>
+    <p *ngIf="product.description">
+      Description: {{product.description}}
+    </p>
+    <div class="container">
+      <button (click)=share()>Share</button> &nbsp;&nbsp;
+    <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+    </div>
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
