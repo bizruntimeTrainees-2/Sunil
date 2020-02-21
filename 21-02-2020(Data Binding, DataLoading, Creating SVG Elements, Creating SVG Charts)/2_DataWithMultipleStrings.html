@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="d3.min.js"></script>
+</head>
+<body>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <script>
+        var myData = ['Hello welcome to d3 learning section', 'Here you will learn D3js', 'D3 in the sence Data Driven Document'];
+        d3.select('body').selectAll('h1')
+            .data(myData)
+            .text(function(str, index){
+                console.log(index);
+                return str;                
+            }).style('color', function(str, index){
+                if(index == 0){
+                    return 'orange';
+                }else{
+                    return 'blue';
+                }
+            })
+    </script>
+</body>
+</html>

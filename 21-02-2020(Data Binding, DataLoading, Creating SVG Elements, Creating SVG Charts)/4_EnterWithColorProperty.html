@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="d3.min.js"></script>    
+</head>
+<body>
+    <script>
+        var myData = [4, 6, 23, 80, 95,200];
+        d3.select('body').selectAll('p').data(myData)
+        .enter().append()
+        .style('color', function(data){
+            if(data % 2 == 0){
+                return 'green';
+            }else{
+                return 'red';
+            }
+        }).text(function(data){
+            return data + "   ";
+        })
+    </script>
+</body>
+</html>
