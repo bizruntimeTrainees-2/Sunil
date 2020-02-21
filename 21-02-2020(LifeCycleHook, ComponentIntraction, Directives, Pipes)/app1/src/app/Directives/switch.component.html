@@ -1,0 +1,23 @@
+<h1 style="text-align: center;color: blue;">Ng-Switch Directive in Angular</h1>
+
+Select Country :<select (change)= choice($event.target.value)>
+    <option>Select Your Country</option>
+    <option *ngFor= "let c of countries" [value]= "c.code">{{c.country}}</option>
+</select>
+<div [ngSwitch]="selectedCountry">
+    <div *ngSwitchCase="'ind'" class="jumbotron">
+        <h1 style="color: rgb(240, 156, 0);">India calling code is +91</h1>
+    </div>
+    <div *ngSwitchCase="'uae'" class="jumbotron">
+        <h1 style="color:rgb(255, 82, 20);">United Arab Emirates calling code is +380</h1>
+    </div>
+    <div *ngSwitchCase="'uk'" class="jumbotron">
+        <h1 style="color: slateblue;">United Kingdom calling code is +44</h1>
+    </div>
+    <div *ngSwitchCase="'aus'" class="jumbotron">
+        <h1 style="color: rgb(139, 184, 81);">Australia calling code is +61</h1>
+    </div>
+    <div *ngSwitchDefault class="jumbotron"> 
+        <h1 >Select your Country</h1>
+    </div>
+</div>

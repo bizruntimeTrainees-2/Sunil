@@ -1,0 +1,22 @@
+<h1 class="text-center" style="color: blue;">{{pageTitle}}</h1>
+<table class="table table-bordered">
+    <tr class="bg-success">
+        <th>Id</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Salary</th>
+        <th>Data Of Birth</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor='let user of users'>
+        <td>{{user.id}}</td>
+        <td>{{user.name | uppercase}}</td>
+        <td>{{user.city | lowercase}}</td>
+        <td>{{user.salary | currency : 'INR'}}</td>
+        <td>{{user.dob | date : 'dd/mm/yyy'}}</td>
+        <td>{{user.dob | age}}</td>
+    </tr>
+</table>
+<pre>
+   {{users | json}}
+</pre>
