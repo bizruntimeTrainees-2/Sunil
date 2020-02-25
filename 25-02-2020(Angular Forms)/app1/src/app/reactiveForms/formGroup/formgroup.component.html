@@ -1,0 +1,36 @@
+<div style="color: blue; background-color: lightgray; padding: 50px;" >
+    <h2 class="text-center">{{pageTitle}}</h2>
+</div>
+<div [formGroup]="userInputData" (ngSubmit)='onSubmit()' class="container">
+    <div>
+        First Name:  <br>
+         <input type="text" formControlName='firstName'/>
+         <br>
+    </div>
+    <div>
+        Last Name:<br>
+         <input type="text" formControlName='lastName'/>
+         <br>
+    </div>
+    <div>
+        Age:<br>
+         <input type="text" formControlName='age'/>
+         <br>
+    </div>
+    <div>
+        Email: <br>
+         <input type="text" formControlName='email'/>
+         <br>
+    </div>
+    <div formGroupName='adderss'>
+        <div>
+            Address1 :<br>
+             <input type="text" formControlName='address1'>
+             <br>
+        </div>
+        <div>
+            Address2:<br> <input type="text" formControlName='address2'><br>
+        </div>
+    </div>
+    <button type="submit">Submit</button>
+</div>

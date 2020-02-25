@@ -1,0 +1,25 @@
+<h1 class="text-center" style="color: blue;">{{pageTitle | titlecase }}</h1>
+
+<div class="container jumbotron">
+    <div >
+        <label for="name">Super HeroName</label>
+        <input type="text" class="form-control form-control-sm" id="name">
+    </div>
+    <div>
+        <label for="weapon">Hero weapon</label>
+        <select class="form-control " id="weapon">  
+            <option *ngFor= 'let wp of weapon' [value]="wp">{{wp}}</option>
+        </select>
+    </div>
+    <div>
+        <label for="speciality">Hero speciality</label>
+        <select class="form-control" id="speciality">
+            <option *ngFor="let sp of speciality" value="sp">{{sp}}</option>
+        </select>
+    </div>
+    <div>
+        <label for="name">Super Hero RealName</label>
+        <input type="text" class="form-control form-control-sm" id="Realname">
+    </div><br>
+    <button style="margin-left: 46%;" class="btn btn-success">Submit</button>
+</div>

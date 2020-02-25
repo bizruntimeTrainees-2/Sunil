@@ -1,0 +1,33 @@
+
+<div style="background-color: lightgray; padding: 20px;">
+    <h1 class="text-center" style="color: blue;">{{pageTitle}}</h1>
+    <button class="btn btn-info text-center" (click)='toggle()'>Click To fill Form</button>
+</div>
+<hr>
+<marquee behavior="slide" direction="left" style="font-size: larger;">
+    Check Out The Form By Clicking above Button</marquee>
+<hr>
+<div [formGroup]="userInputData" class="jumbotron" style="margin-right: 80%;" *ngIf="show" >
+    
+    <div>
+        First Name: <br>
+        <input class="form-control input-sm" type="text" formControlName= "firstName"/>
+        <br>
+    </div>
+    <div>
+        Last Name: <br>
+        <input class="form-control input-sm" type="text" formControlName= "lastName"/>
+        <br>
+    </div>
+    <div formGroupName="address">
+        Address1: <br>
+        <input class="form-control input-sm" type="text" formControlName= "address1"/>
+        <br>
+        Address2: <br>
+        <input class="form-control input-sm" type="text" formControlName= "address2"/>
+        <br>
+        State: <br>
+        <input class="form-control input-sm" type="text" formControlName= "state"/>
+        <br>
+    </div>
+</div>
